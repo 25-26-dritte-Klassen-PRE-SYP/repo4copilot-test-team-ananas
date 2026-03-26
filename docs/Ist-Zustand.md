@@ -1,8 +1,9 @@
-Als Business schreiben wir im Moment alle Bestellungen auf Papier.
+# Business
+Der Kunde Hallenfest Aistersheim schreibt im Moment alle Bestellungen die gemacht werden auf Papier auf
 
-Das Problem ist, dass es sehr langsam und stressig ist.
+## Problem & Bedürfnisse
+-Es ist sehr langsam da das Personal zwischen den Gästen und der Küche hin und her rennen muss.
+-Aufgrund des ganzen hin und her rennen wird es auch stressig für das Personal.
+-Handgeschriebene Zettel können auch oft unleserlich sein
 
-
-
-Unser Bedürfnis ist die Bestellungen einfach digital zu erfassen und direkt an die Küche weiterzuleiten.
 
