@@ -1,7 +1,7 @@
 # Effizienz:
 Performance:
 Relevanz: 2/5
-Jeder Klick soll in höchstens einer halben Sekunde ausgeführt worden sein
+Jeder Klick hat höchstens eine halbe Sekunde um ausgeführt zu werden
 
 # Zuverlässigkeit:
 Relevanz: 5/5
