@@ -43,8 +43,10 @@ Server auf dem Logs gespeichert werden
 ## 2.2 Soll-Kontext
 
 ### UCD
+<img width="539" height="491" alt="soll-ucd" src="https://github.com/user-attachments/assets/93d5bcc1-5479-4fe9-a568-dc38acda56f7" />
 
 ### DFD
+<img width="879" height="829" alt="soll-dfd" src="https://github.com/user-attachments/assets/c66b1257-838f-465b-8071-d35c58f0bd12" />
 
 ## 2.3. Nicht funktionale Anforderungen
 
@@ -75,4 +77,12 @@ QR-Code Scanner, Drucker, Server auf dem Logs gespeichert werden:
 Diese sind alle intern
 
 ## 2.5 Wireframes
+<img width="2160" height="3055" alt="wireframe-1" src="https://github.com/user-attachments/assets/ff67386a-199a-4429-add6-c12cb7bbeab9" />
+
+<img width="2160" height="3055" alt="wireframe-2" src="https://github.com/user-attachments/assets/ed74830a-2cc5-4f21-ac05-9972df965336" />
+
+<img width="2160" height="3055" alt="wireframe-3" src="https://github.com/user-attachments/assets/a6c1482d-4fa7-4037-a37d-f78e046d4d08" />
+
+<img width="2160" height="3055" alt="wireframe-4" src="https://github.com/user-attachments/assets/56be6445-7b1a-41e6-856b-962ae562dc02" />
+
 
