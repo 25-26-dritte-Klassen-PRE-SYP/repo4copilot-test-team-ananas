@@ -3,51 +3,51 @@ Hier sind 20 konkrete Verbesserungsvorschläge für dein Dokument:
 **Struktur & Vollständigkeit**
 
 1. **Projektziel fehlt komplett** – Füge ganz am Anfang eine kurze Executive Summary (2–3 Sätze) ein, die erklärt, was das Projekt ist und warum es gemacht wird.
-SINNVOLL
+SINNVOLL, für übersicht
 
 2. **Ist-Kontext ersetzen** – Statt "wir haben kein UCD/DFD weil wir das Projekt gewechselt haben" einfach eine kurze Textbeschreibung des aktuellen Ablaufs schreiben (Kellner nimmt Bestellung auf → geht in Küche → ...). Das wirkt professioneller.
-TEILWEISE SINNVOLL
+TEILWEISE SINNVOLL, UCD/DFD einfach nachmachen
 
 3. **Personas oder Rollen beschreiben** – Die Personen unter 1.4.1 sind nur aufgelistet. Beschreibe kurz, was jede Rolle tut und welche Bedürfnisse sie hat.
-SINNVOLL
+SINNVOLL, für besseres Verständnis
 
 4. **Systemübersicht fehlt** – Erkläre kurz, wie die Systeme (QR-Code Scanner, Drucker, Server) zusammenspielen – ein einzelner erklärender Satz pro System würde reichen.
-SINNVOLL
+SINNVOLL, für besseres Verständnis
 
 5. **Abschnitt 2.4 ist widersprüchlich** – Du listest QR-Code Scanner, Drucker und Server unter "Erwartung-API", obwohl du gleichzeitig sagst, es gibt keine externen Schnittstellen. Trenne das sauber: interne Schnittstellen vs. externe APIs.
-SINNVOLL
+SINNVOLL, für bessere Übersicht
 
 ---
 
 **Anforderungen präzisieren**
 
 6. **Ziele messbar machen** – "Kellner sollen UI nach kurzer Erklärung verstehen" ist nicht messbar. Besser: "Nach einer 10-minütigen Einführung soll ein Kellner eine Bestellung ohne fremde Hilfe aufgeben können."
-SINNVOLL
+SINNVOLL, für mehr Genauigkeit
 
 7. **Dopplung entfernen** – Die Usability-Anforderung (UI nach kurzer Erklärung verstehen) steht sowohl in 2.1 als auch in 2.3. Einmal reicht – in 2.3 als nicht-funktionale Anforderung.
-SINNVOLL
+SINNVOLL, für Vermeidung von Redundanz
 
 8. **Stresstest konkretisieren** – "Soll sich bei Stresstest nicht aufhängen" ist zu vage. Wie viele gleichzeitige Nutzer? Wie lange? Z.B. "Das System soll bei 10 gleichzeitigen Kellner-Sitzungen über 30 Minuten stabil laufen."
-SINNVOLL
+SINNVOLL, für Genauigkeit
 
 9. **Sicherheitsanforderungen ausbauen** – "Verschlüsseltes Protokoll" ist gut, aber: Welches Protokoll (TLS 1.2+)? Wie funktioniert die Authentifizierung (Token, Login)? Was passiert bei einem fehlgeschlagenen Login-Versuch?
 ÜBERTRIEBEN
 
 10. **RAM-Anforderung begründen** – Warum 2 GB RAM? Welche Zielgeräte habt ihr? Besser: "Die App soll auf den vom Kunden verwendeten Geräten [Modell/OS] lauffähig sein."
-SINNVOLL
+SINNVOLL, für Erklärung
 
 ---
 
 **Sprache & Formulierung**
 
 11. **Passive statt persönliche Formulierungen** – "Wir haben leider kein UCD/DFD" klingt informell. In einem Produktdokument lieber: "Ein Ist-UCD/DFD liegt für dieses Projekt nicht vor."
-SINNLOS
+ÜBERTRIEBEN
 
 12. **Einheitliche Sprache bei Akteuren** – Manchmal "Kellner", manchmal "Personal" – einheitlich halten.
-SINNLOS
+ÜBERTRIEBEN, Mit Personal sind Kellner und Tablettausträger gemeint
 
 13. **Abkürzungen erklären** – UCD und DFD werden verwendet, ohne erklärt zu werden. Am Anfang oder in einem Glossar kurz definieren.
-SINNLOS
+Wäre sinnvoll, aber zu viel Aufwand
 
 14. **Wireframe-Beschreibungen fehlen** – Die vier Wireframes sind einfach eingebettet, ohne Erklärung was sie zeigen. Füge unter jedem ein bis zwei Sätze ein (z.B. "Wireframe 1: Bestellübersicht des Kellners").
 SINNLOS
@@ -59,20 +59,20 @@ SINNLOS
 SINNLOS
 
 16. **Datenschutz nicht erwähnt** – Bestelldaten mit Kellnername und Uhrzeit werden geloggt. Wie lange werden die gespeichert? Wer hat Zugriff? Gerade in Österreich (DSGVO) relevant.
-SINNVOLL
+SINNVOLL, für Nachvollziehbarkeit und Rechtmäßigkeit
 
 17. **Rollout/Einführung fehlt** – Wie wird das System eingeführt? Gibt es eine Testphase? Das wäre ein sinnvoller Abschnitt, selbst wenn er kurz ist.
-SINNLOS
+ÜBERTRIEBEN
 
 18. **QR-Code-Funktion unklar** – Der QR-Code Scanner wird zweimal erwähnt, aber es steht nirgends, wozu er konkret genutzt wird. Tischidentifikation? Menü aufrufen? Das sollte explizit stehen.
-SINNLOS
+SINNLOS, kann man aus den Grafiken erkennen
 
 ---
 
 **Formales**
 
 19. **Versionierung und Datum fehlen** – Füge oben eine Tabelle mit Versionsnummer, Datum und Autor(en) ein. Das ist Standard für Produktdokumente.
-SINNVOLL
+SINNLOS, sieht man auf GITHUB
 
 20. **Kein Inhaltsverzeichnis** – Bei einem Dokument dieser Länge (und mit Bildern) sollte ein kurzes Inhaltsverzeichnis am Anfang stehen, damit man schnell zur richtigen Stelle springt.
 SINNLOS
