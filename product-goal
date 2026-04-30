@@ -43,10 +43,8 @@ Server auf dem Logs gespeichert werden
 ## 2.2 Soll-Kontext
 
 ### UCD
-![alt text](soll-ucd.png)
 
 ### DFD
-![alt text](soll-dfd.png)
 
 ## 2.3. Nicht funktionale Anforderungen
 
@@ -77,10 +75,4 @@ QR-Code Scanner, Drucker, Server auf dem Logs gespeichert werden:
 Diese sind alle intern
 
 ## 2.5 Wireframes
-![alt text](wireframe-1.png)
 
-![alt text](wireframe-2.png)
-
-![alt text](wireframe-3.png)
-
-![alt text](wireframe-4.png)
