@@ -1,4 +1,4 @@
-# 🛠️ Solution Design Document (SDD) – Digitale Bestell-App "Hallenfest Aistersheim"
+# 🛠️ Solution Design Document (SDD) – Digitale Bestell-App
 ## 1. Einleitung & Technischer Kontext
 
     Referenz zum Product Goal: Die Anforderungen an UI/UX, Infrastruktur und die funktionalen Ziele sind im Dokument product-goal.md definiert.
