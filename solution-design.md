@@ -12,7 +12,7 @@ Das System läuft autark in einem geschlossenen, lokalen Netzwerk (LAN/WLAN) am 
 ## 2. Technologie-Stack
 
 ### 2.1 Mobile App (Frontend)
-* **Framework:** Swift (SwiftUI) für eine native iOS-App ODER Flutter (Dart) für plattformübergreifende Entwicklung. *(Entscheidung je nach Vorwissen im Team)*
+* **Framework:** Flutter (Dart) für plattformübergreifende Entwicklung. *(Entscheidung je nach Vorwissen im Team)*
 * **QR-Scanning:** Nutzung der nativen iOS-Kamera-APIs (`AVFoundation` bei Swift oder `mobile_scanner` Package bei Flutter).
 * **HTTP-Client:** `Alamofire` (Swift) oder `http`-Package (Flutter) für REST-Requests ans Backend.
 * **Deployment:** Installation auf den Geräten des Kunden via Apple TestFlight oder Ad-Hoc Provisioning.
