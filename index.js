@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('Server läuft auf Vercel!');
 });
 
+app.get('/ananas', (req, res) => {
+  res.send('Ananas!');
+});
+
 // Wichtig für lokales Testen, Vercel handling ist serverless
 app.listen(PORT, () => {
   console.log(`Server läuft auf Port ${PORT}`);
