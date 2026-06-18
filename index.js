@@ -1,18 +1,18 @@
-const express = require('express');
+const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-  res.send('Server läuft auf Vercel!');
+//Endpoints
+app.get("/", (req, res) => {
+  res.send("Server läuft auf Vercel!");
 });
 
-app.get('/ananas', (req, res) => {
-  res.send('Ananas!');
+app.get("/ananas", (req, res) => {
+  res.send("Ananas!");
 });
 
-// Wichtig für lokales Testen, Vercel handling ist serverless
 app.listen(PORT, () => {
   console.log(`Server läuft auf Port ${PORT}`);
 });
 
-module.exports = app; // Wichtig für Vercel!
+module.exports = app;
